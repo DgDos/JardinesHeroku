@@ -11,21 +11,21 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto"> 
 
-<!--                <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " data-toggle="dropdown" id="dropdownMenuButton" href="" role="button" aria-haspopup="true" aria-expanded="false"><i class="nc-icon nc-circle-10"></i>Estudiante</a>
-                    <ul class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " data-toggle="dropdown" id="dropdownMenuButton" href="" role="button" aria-haspopup="true" aria-expanded="false"><i class="nc-icon nc-circle-10"></i>Parqueadero</a>
+<!--                    <ul class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="crearEstudiante.jsp">Crear Estudiante</a>
                         <a class="dropdown-item" href="verEstudiante.jsp">Ver Estudiante</a>
                         <a class="dropdown-item" href="eliminarEstudiante.jsp">Eliminar Estudiante</a>
                         <a class="dropdown-item" href="ubicarEstudiante.jsp">Asignar Estudiante</a>
                         <a class="dropdown-item" href="editarEstudiante.jsp">Estudiante/Curso</a>
-                    </ul>
+                    </ul>-->
                 </div>
 
 
 
 
-                <div class="nav-item dropdown">
+<!--                <div class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle " data-toggle="dropdown" id="dropdownMenuButton" href="" role="button" aria-haspopup="true" aria-expanded="false"><i class="nc-icon nc-single-02"></i>Profesor</a>
                     <ul class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="crearProfesor.jsp">Crear Profesor</a>
@@ -53,15 +53,15 @@
                         <a class="dropdown-item" href="vercursoMateria.jsp">Ver Curso/Materia</a>                             
                         <a class="dropdown-item" href="profesoresMateria.jsp">Profesor/Materia</a>                             
                     </ul>
-                </div>-->
+                </div>
 
                 <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " data-toggle="dropdown" id="dropdownMenuButton" href="" role="button" aria-haspopup="true" aria-expanded="false"><i class="nc-icon nc-tile-56"></i>Parqueadero</a>
-<!--                    <ul class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
+                    <a class="nav-link dropdown-toggle " data-toggle="dropdown" id="dropdownMenuButton" href="" role="button" aria-haspopup="true" aria-expanded="false"><i class="nc-icon nc-tile-56"></i>Materia</a>
+                    <ul class="dropdown-menu dropdown-info" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="addMateria.jsp">Crear Materia</a>
                         <a class="dropdown-item" href="verMateria.jsp">Ver Materias</a>                             
-                    </ul>-->
-                </div>
+                    </ul>
+                </div>-->
                 
             </ul>
         </div>
