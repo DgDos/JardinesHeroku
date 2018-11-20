@@ -57,7 +57,7 @@ $(document).ready(function () {
             var selectForm = $('#b');
             var json = $.parseJSON(data);
             selectForm.empty();
-            var opcion = "<h2>Bienvenido/a Profesor/a: " + json.nombre + "</h2>";
+            var opcion = "<h2>Bienvenido/a Usuario: " + json.nombre + "</h2>";
             selectForm.append(opcion);
             
 
