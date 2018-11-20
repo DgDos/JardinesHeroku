@@ -94,6 +94,7 @@ public class ActividadS extends HttpServlet {
                 e.setIdTema(Integer.parseInt(request.getParameter("tema2")));
                 ActividadDAO o = new ActividadDAO();
                 o.updateActividad(e);
+                //hola
                 
             }
             if(opcion==4){
