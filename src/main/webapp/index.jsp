@@ -37,7 +37,7 @@
 
     </head>
     <body style="background-color:black">
-        <div class="page-header section-dark" style="background-image: url('assets/img/parking.jpg')">
+        <div class="page-header section-dark" style="background-image: url('assets/img/parking.jpeg')">
             <div class="filter"></div>
             <div class="content-center">
                 <div class="container">
