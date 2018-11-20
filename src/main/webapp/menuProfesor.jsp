@@ -54,7 +54,7 @@
                     <div class="container">
                         <h id="b"></h>
 
-                        <br>
+<!--                        <br>
                         <br>
                         <h6>Recuerde que es Director/a del curso:</h6>
 
@@ -78,7 +78,7 @@
                         
                          <table id="tabla3" class="table table-light">
 
-                        </table>
+                        </table>-->
 
                     </div>
 

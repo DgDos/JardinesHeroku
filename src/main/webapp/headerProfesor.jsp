@@ -6,11 +6,11 @@
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
             </button>
-            <a class="navbar-brand" href="menuProfesor.jsp">Jardin Infantil</a>
+            <a class="navbar-brand" href="menuProfesor.jsp">Smart Parking</a>
         </div>
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item" >
+<!--                <li class="nav-item" >
                     <a href="perfilProfesor.jsp"  class="nav-link"  ><i class=" nc-icon nc-badge"></i>Ver Perfil</a>
                 </li>
                 <div class="nav-item dropdown">
@@ -40,7 +40,7 @@
                 </li> 
                 <li class="nav-item">
                     <a href="retroalimentacionEstudiante.jsp"  class="nav-link"><i class="nc-icon nc-chart-bar-32"></i> Retroalimentacion</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
                     <a href="Login?action=salir" class="nav-link"><i class="nc-icon nc-button-power"></i> Logout</a>
                 </li>
