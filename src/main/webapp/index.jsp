@@ -14,7 +14,7 @@
     %>
     <head>
         <meta charset="utf-8" />
-        <link rel="icon" type="image/png" href="assets/img/colegio.ico">
+        <link rel="icon" type="image/png" href="assets/img/carro.ico">
         <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
@@ -37,13 +37,13 @@
 
     </head>
     <body style="background-color:black">
-        <div class="page-header section-dark" style="background-image: url('assets/img/colegio2.jpg')">
+        <div class="page-header section-dark" style="background-image: url('assets/img/parking.jpg')">
             <div class="filter"></div>
             <div class="content-center">
                 <div class="container">
                     <div class="title-brand">
                         &nbsp;
-                        <h1 class="presentation-title">Jardines</h1>
+                        <h1 class="presentation-title">Smart Parking</h1>
 
                         <%-- <div class="fog-low right">
                              <img src="assets/img/fog-low.png" alt="">
@@ -51,7 +51,6 @@
                         --%>
                     </div>
 
-                    <h2 class="presentation-subtitle text-center">Kids are the future </h2>
                 </div>
             </div>
             <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); ">
@@ -67,7 +66,7 @@
             <div class="container" >
                 <div class="row" >
                     <div class="col-md-4 ml-auto mr-auto">
-                        <div class="card card-register" style="background-color:#FB404B">
+                        <div class="card card-register" style="background-color:black">
                             <h3 class="title">Bienvenido</h3>
 
                             <form class="register-form" id="ingreso">
@@ -86,7 +85,7 @@
                                     </span>
                                     <input type="password" class="form-control" placeholder="Contraseña" id="contra">
                                 </div>
-                                <button class="btn btn-warning btn-block btn-round" >Iniciar Sesion</button>
+                                <button class="btn btn-block btn-round" style="background-color:black" >Iniciar Sesion</button>
                             </form>
 
                         </div>
