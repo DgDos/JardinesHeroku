@@ -118,7 +118,7 @@ $.ajax({
         },
         dataType: "text",
         success: function (data) {
-            var selectForm = $('#tarifaparquedero');
+            var selectForm = $('#tarifaparqueadero');
             var json = $.parseJSON(data);
             selectForm.empty();
             var opcion = "<h2>La tarifa del parquedero es: " + json.tarifa + "</h2>";
