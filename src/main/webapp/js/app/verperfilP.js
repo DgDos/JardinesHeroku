@@ -1,13 +1,4 @@
 $(document).ready(function () {
-
-function cache_clear() {
-  window.location.reload(true);
-  // window.location.reload(); use this if you do not remove cache
-}
-setInterval(function() {
-    cache_clear()
-  }, 3000);
-
     $.ajax({
         type: 'GET',
         url: "ProfesorS",
