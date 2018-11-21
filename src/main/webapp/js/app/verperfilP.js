@@ -1,4 +1,5 @@
 $(document).ready(function () {
+location.reload()
 
 $.ajax({
         type: 'GET',
