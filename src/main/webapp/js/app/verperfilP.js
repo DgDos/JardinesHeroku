@@ -159,7 +159,7 @@ $.ajax({
         },
         dataType: "text",
         success: function (data) {
-            var selectForm = $('#ganancia');
+            var selectForm = $('#ganancias');
             var json = $.parseJSON(data);
             selectForm.empty();
             var opcion = "<h3>Ganancia total: " + json.ganancia + "</h3>";
