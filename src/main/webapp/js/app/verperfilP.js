@@ -99,10 +99,10 @@ $.ajax({
         },
         dataType: "text",
         success: function (data) {
-            var selectForm = $('#b');
+            var selectForm = $('#b2');
             var json = $.parseJSON(data);
             selectForm.empty();
-            var opcion = "<h2>Bienvenido/a Usuario: " + json.nombre + "</h2>";
+            var opcion = "<h2>Bienvenido/a Administrador: " + json.nombre + "</h2>";
             selectForm.append(opcion);
             
 
