@@ -9,6 +9,10 @@
         <servlet-class>Controlador.ProfesorS</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>ParqueaderoS</servlet-name>
+        <servlet-class>Controlador.ParqueaderoS</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>Login</servlet-name>
         <servlet-class>Controlador.Login</servlet-class>
     </servlet>
@@ -93,6 +97,10 @@
     <servlet-mapping>
         <servlet-name>ProfesorS</servlet-name>
         <url-pattern>/ProfesorS</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        <servlet-name>ParqueaderoS</servlet-name>
+        <url-pattern>/ParqueaderoS</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>

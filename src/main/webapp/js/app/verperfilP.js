@@ -138,18 +138,18 @@ $(document).ready(function () {
         //force to handle it as text
 
         data: {
-            'opcion': "6"
+            'opcion': "9"
         },
         dataType: "text",
         success: function (data) {
           
             var selectForm = $('#tabla4');
             selectForm.empty();
-            selectForm.append('<tr><td>Documento</td><td>Estudiante</td></tr>');
+            selectForm.append('<tr><td>Parqueadero</td><td>Status</td></tr>');
             var json = $.parseJSON(data);
             for (var i = 0; i < json.length; ++i)
             {
-                var opcion = "<tr><td>" + json[i].idEstudiante + "</td><td>" + json[i].nombre + "</td> </tr>";
+                var opcion = "<tr><td>" + json[i].parqueadero + "</td><td>" + json[i].status + "</td> </tr>";
                 selectForm.append(opcion);
             }
         },

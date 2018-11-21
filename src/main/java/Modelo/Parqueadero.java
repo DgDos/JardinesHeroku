@@ -11,10 +11,19 @@ package Modelo;
  */
 public class Parqueadero {
  
+    private int idparqueadero;
     private String parqueadero;
     private String status;
 
     public Parqueadero() {
+    }
+
+    public int getIdparqueadero() {
+        return idparqueadero;
+    }
+
+    public void setIdparqueadero(int idparqueadero) {
+        this.idparqueadero = idparqueadero;
     }
 
     public String getParqueadero() {
@@ -31,6 +40,10 @@ public class Parqueadero {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public void setIdParqueadero(int aInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

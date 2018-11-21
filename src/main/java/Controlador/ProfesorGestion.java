@@ -12,6 +12,7 @@ import Dao.CursoMateriaDAO;
 import Dao.EstudianteDAO;
 import Dao.DirectorCursoDAO;
 import Dao.ObservadorDAO;
+import Dao.ParqueaderoDAO;
 import Dao.ProfesorDAO;
 import Modelo.Actividad;
 import Modelo.Curso;
@@ -20,6 +21,7 @@ import Modelo.Estudiante;
 import Modelo.Profesor;
 import Modelo.DirectorCurso;
 import Modelo.Nota;
+import Modelo.Parqueadero;
 import Util.ProfesorMateria;
 import Util.RetroalimentacionNota;
 import com.google.gson.Gson;
@@ -235,6 +237,13 @@ public class ProfesorGestion extends HttpServlet {
                 }
                 Gson g = new Gson();
                 String pasareEsto = g.toJson(fin);
+                out.print(pasareEsto);
+            }
+            if (opc == 9) {
+                ParqueaderoDAO o = new ParqueaderoDAO();
+                ArrayList<Parqueadero> e = o.getallParqueaderos();
+                Gson g = new Gson();
+                String pasareEsto = g.toJson(e);
                 out.print(pasareEsto);
             }
         } catch (SQLException ex) {

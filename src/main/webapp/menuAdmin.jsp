@@ -63,7 +63,7 @@
 
                         </table>
                         <br>
-                        <h6>Los siguientes profesores no se encuentran asignados a una materia:</h6>
+<!--                        <h6>Los siguientes profesores no se encuentran asignados a una materia:</h6>
 
                         <br>
                         <table id="tabla5" class="table table-light">
@@ -75,7 +75,7 @@
                         
                          <table id="tabla6" class="table table-light">
 
-                        </table>
+                        </table>-->
 
                     </div>
 
