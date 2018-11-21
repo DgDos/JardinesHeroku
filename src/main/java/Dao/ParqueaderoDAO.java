@@ -71,4 +71,14 @@ public class ParqueaderoDAO {
         }
         return pro;
     }
+    
+     public Tarifa getTotal() throws SQLException, URISyntaxException {
+        Tarifa pro = new Tarifa();
+        Statement statement = connection.createStatement();
+        ResultSet rs = statement.executeQuery("select * from tarifa where id=1 ");
+        while (rs.next()) {
+            pro.setTotal(rs.getInt("total"));              
+        }
+        return pro;
+    }
 }

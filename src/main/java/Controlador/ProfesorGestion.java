@@ -254,6 +254,13 @@ public class ProfesorGestion extends HttpServlet {
                 String pasareEsto = g.toJson(e);
                 out.print(pasareEsto);
             }
+            if (opc == 11) {
+                ParqueaderoDAO o = new ParqueaderoDAO();
+                Tarifa e = o.getTotal();
+                Gson g = new Gson();
+                String pasareEsto = g.toJson(e);
+                out.print(pasareEsto);
+            }
         } catch (SQLException ex) {
             Logger.getLogger(EstudianteS.class.getName()).log(Level.SEVERE, null, ex);
         } catch (URISyntaxException ex) {
