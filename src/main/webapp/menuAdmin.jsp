@@ -56,7 +56,7 @@
 
                         <br>
                         <br>
-                        <h6>Los siguientes estudiantes no se encuentran asignados a un curso:</h6>
+                        <h6>Lista que Parqueaderos:</h6>
 
                         <br>
                         <table id="tabla4" class="table table-light">
