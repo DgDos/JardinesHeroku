@@ -22,6 +22,7 @@ import Modelo.Profesor;
 import Modelo.DirectorCurso;
 import Modelo.Nota;
 import Modelo.Parqueadero;
+import Modelo.Tarifa;
 import Util.ProfesorMateria;
 import Util.RetroalimentacionNota;
 import com.google.gson.Gson;
@@ -242,6 +243,13 @@ public class ProfesorGestion extends HttpServlet {
             if (opc == 9) {
                 ParqueaderoDAO o = new ParqueaderoDAO();
                 ArrayList<Parqueadero> e = o.getallParqueaderos();
+                Gson g = new Gson();
+                String pasareEsto = g.toJson(e);
+                out.print(pasareEsto);
+            }
+            if (opc == 10) {
+                ParqueaderoDAO o = new ParqueaderoDAO();
+                Tarifa e = o.getTarifa();
                 Gson g = new Gson();
                 String pasareEsto = g.toJson(e);
                 out.print(pasareEsto);

@@ -98,10 +98,30 @@ $.ajax({
         },
         dataType: "text",
         success: function (data) {
-            var selectForm = $('#b2');
+            var selectForm = $('#b');
             var json = $.parseJSON(data);
             selectForm.empty();
-            var opcion = "<h2>Bienvenido/a Administrador/a: " + json.nombre + "</h2>";
+            var opcion = "<h2>Bienvenido/a Usuario: " + json.nombre + "</h2>";
+            selectForm.append(opcion);
+            
+
+        },
+        async: false
+    });
+    
+    $.ajax({
+        type: 'GET',
+        url: "ProfesorGestion",
+        //force to handle it as text
+        data: {
+            'opcion': "10"
+        },
+        dataType: "text",
+        success: function (data) {
+            var selectForm = $('#tarifaparquedero');
+            var json = $.parseJSON(data);
+            selectForm.empty();
+            var opcion = "<h2>La tarifa del parquedero es: " + json.tarifa + "</h2>";
             selectForm.append(opcion);
             
 

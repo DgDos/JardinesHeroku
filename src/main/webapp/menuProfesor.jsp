@@ -53,7 +53,8 @@
 
                     <div class="container">
                         <h id="b"></h>
-                        
+                        <br>
+                        <h id="tarifaparqueadero"></h>
                             <br>
                         <br>
                         <h6>Lista que Parqueaderos:</h6>
@@ -62,6 +63,8 @@
                         <table id="tabla4" class="table table-light">
 
                         </table>
+                        <br>
+                        <h id="tarifa"></h>
                         
 <!--                        <br>
                         <br>

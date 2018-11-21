@@ -7,6 +7,7 @@ package Dao;
 
 import Modelo.Parqueadero;
 import Modelo.Parqueadero;
+import Modelo.Tarifa;
 import Util.DbUtil;
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -57,6 +58,16 @@ public class ParqueaderoDAO {
             pro.setIdParqueadero(rs.getInt("id"));
             pro.setParqueadero(rs.getString("parqueadero"));
             pro.setStatus(rs.getString("status"));        
+        }
+        return pro;
+    }
+    
+    public Tarifa getTarifa() throws SQLException, URISyntaxException {
+        Tarifa pro = new Tarifa();
+        Statement statement = connection.createStatement();
+        ResultSet rs = statement.executeQuery("select * from tarifa where id=1 ");
+        while (rs.next()) {
+            pro.setTarifa(rs.getInt("tarifa"));              
         }
         return pro;
     }
