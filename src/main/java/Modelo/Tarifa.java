@@ -13,8 +13,17 @@ public class Tarifa {
     
     private int tarifa;
     private int total;
+    private int ganancia;
 
     public Tarifa() {
+    }
+
+    public int getGanancia() {
+        return ganancia;
+    }
+
+    public void setGanancia(int ganancia) {
+        this.ganancia = ganancia;
     }
 
     public int getTotal() {

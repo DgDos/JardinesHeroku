@@ -152,6 +152,26 @@ $.ajax({
     
     $.ajax({
         type: 'GET',
+        url: "ProfesorGestion",
+        //force to handle it as text
+        data: {
+            'opcion': "12"
+        },
+        dataType: "text",
+        success: function (data) {
+            var selectForm = $('#ganancia');
+            var json = $.parseJSON(data);
+            selectForm.empty();
+            var opcion = "<h3>Ganancia total: " + json.ganancia + "</h3>";
+            selectForm.append(opcion);
+            
+
+        },
+        async: false
+    });
+    
+    $.ajax({
+        type: 'GET',
         url: "ObservadorS",
         //force to handle it as text
 

@@ -67,6 +67,8 @@
 
                         </table>
                         <br>
+                        <h id="ganancias"></h>
+                            <br>
 <!--                        <h6>Los siguientes profesores no se encuentran asignados a una materia:</h6>
 
                         <br>
