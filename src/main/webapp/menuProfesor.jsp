@@ -55,7 +55,7 @@
                         <h id="b"></h>
                         <br>
                         <h id="tarifaparqueadero"></h>
-                            <br>
+                        <br>
                         <br>
                         <h6>Lista que Parqueaderos:</h6>
 
@@ -65,32 +65,32 @@
                         </table>
                         <br>
                         <h id="tarifa"></h>
+
+                        <!--                        <br>
+                                                <br>
+                                                <h6>Recuerde que es Director/a del curso:</h6>
                         
-<!--                        <br>
-                        <br>
-                        <h6>Recuerde que es Director/a del curso:</h6>
-
-                        <br>
-                        <table id="tabla" class="table table-light">
-
-                        </table>
-                        <br>
-                        <h6>Recuerde que es profesor/a de los siguientes cursos:</h6>
-
-                        <br>
-                        <table id="tabla2" class="table table-light">
-
-                        </table>
-                        <br>
-                        <h6>Asistencia:</h6>
+                                                <br>
+                                                <table id="tabla" class="table table-light">
                         
-                        <p id="p" style="color:red"></p>
-                        <br>
-                        <h6>Actividades sin notas:</h6>
+                                                </table>
+                                                <br>
+                                                <h6>Recuerde que es profesor/a de los siguientes cursos:</h6>
                         
-                         <table id="tabla3" class="table table-light">
-
-                        </table>-->
+                                                <br>
+                                                <table id="tabla2" class="table table-light">
+                        
+                                                </table>
+                                                <br>
+                                                <h6>Asistencia:</h6>
+                                                
+                                                <p id="p" style="color:red"></p>
+                                                <br>
+                                                <h6>Actividades sin notas:</h6>
+                                                
+                                                 <table id="tabla3" class="table table-light">
+                        
+                                                </table>-->
 
                     </div>
 
