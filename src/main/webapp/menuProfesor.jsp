@@ -53,7 +53,16 @@
 
                     <div class="container">
                         <h id="b"></h>
+                        
+                            <br>
+                        <br>
+                        <h6>Lista que Parqueaderos:</h6>
 
+                        <br>
+                        <table id="tabla4" class="table table-light">
+
+                        </table>
+                        
 <!--                        <br>
                         <br>
                         <h6>Recuerde que es Director/a del curso:</h6>
