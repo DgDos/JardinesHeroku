@@ -1,5 +1,5 @@
 $(document).ready(function () {
-location.reload(forceGet);
+
 
 $.ajax({
         type: 'GET',

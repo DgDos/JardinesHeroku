@@ -57,7 +57,9 @@
                         <h id="b2"></h>
 
                         <br>
-                        <br>
+                        <h id="tarifaparqueadero"></h>
+                            <br>
+                       
                         <h6>Lista que Parqueaderos:</h6>
 
                         <br>
